@@ -18,6 +18,7 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 7. Otherwise, stop the program.  
 
 ## Program (Ascending order)
+```
 ORG 00H
 LOOP1:MOV R0,#40H
 MOV R6,30H
@@ -35,6 +36,8 @@ DOWN:DJNZ R6,LOOP
 MOV R1,#02H
 DJNZ R1,LOOP1
 END
+```
+
 ## OUTPUT(Ascending order)
 <img width="1915" height="643" alt="image" src="https://github.com/user-attachments/assets/b33cbd0d-983a-4bf0-8c95-635b0ef56de4" />
 
@@ -52,6 +55,7 @@ END
    - If **Yes**, stop the program.  
 ---
 ## Program (Descending order)
+```
 ORG 00H
 LOOP1:MOV R0,#40H
 MOV R6,30H
@@ -69,6 +73,8 @@ DOWN:DJNZ R6,LOOP
 MOV R1,#02H
 DJNZ R1,LOOP1
 END
+```
+
 ## OUTPUT(Descending order)
 <img width="1916" height="522" alt="image" src="https://github.com/user-attachments/assets/2fed9e59-eef4-4c67-bf69-79a9cfcdc299" />
 
